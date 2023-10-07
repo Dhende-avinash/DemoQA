@@ -20,7 +20,7 @@ public class AppTest
     public void LaunchEdge()
     {
     	driver = new EdgeDriver();
-    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     	driver.manage().window().maximize();
     	driver.get("https://www.google.com/");
     }
